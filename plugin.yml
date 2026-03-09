@@ -1,0 +1,20 @@
+name: WorldBorderBedrock
+version: 1.0.0
+main: icrafts\worldborderbedrock\WorldBorderBedrock
+api: 5.0.0
+author: iCrafts
+description: Simple world border control for PocketMine.
+
+commands:
+  wb:
+    description: WorldBorder command
+    usage: "/wb <set|center|info|clear>"
+    permission: wb.use
+
+permissions:
+  wb.use:
+    default: op
+  wb.admin:
+    default: op
+  wb.bypass:
+    default: op
